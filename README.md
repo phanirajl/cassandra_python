@@ -1,0 +1,2 @@
+# cassandra_python
+This repository has lots of useful code for working with Cassandra in python to automate queries from data files and the database once it has been loaded with information. The code assumes you have Cassandra, the Cassandra-driver which allowws you to use python and python 3 installed on your computer. All programs are written in MacOS but should be compatible with windows (just make she file paths are listed correctly!)
