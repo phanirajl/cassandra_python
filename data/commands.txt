@@ -1,0 +1,8 @@
+copy rating (uid, iid, rating,tstamp) from '/Users/primrosechareka/opt/data/netIDs.data' with DELIMITER = '\t';
+Using 3 child processes
+
+Starting copy of assign1.rating with columns [uid, iid, rating, tstamp].
+Processed: 60000 rows; Rate:   11349 rows/s; Avg. rate:    7234 rows/s
+60000 rows imported from 1 files in 8.294 seconds (0 skipped).
+
+create type rating(entry int, iid int, rating int, tstamp timestamp);
