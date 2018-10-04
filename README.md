@@ -9,7 +9,12 @@ Step 3: Open a 3rd terminal window and log into the cassandra query language by 
 	[cqlsh 5.0.1 | Cassandra 3.11.3 | CQL spec 3.4.4 | Native protocol v4]
 	Use HELP for help.
 
-Step 4: 
+Step 4: In the terminal window not running cassandra and not logged into the cqlsh 		language, navigate to the main cassandra_python file. Open and inspect 			setUpDatabase.py This will show you the structure of the database we are about to 	construct. In your terminal execute the file (python setUpDatabase.py). Back in 	terminal 3, if you inter the commands
+		USE movRatings;
+		SELECt * from uidRatedMovies;
+	You will see the items which have been loaded into the table. You can do the same 	SELECT statement for the other tables. *note that cassandra is not case sensitive 	and I am only adding that for readability
+
+Step: 5
 
 	
 	
